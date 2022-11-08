@@ -1,1 +1,1 @@
-<template><Header /></template>
+<template><Header /><slot /></template>

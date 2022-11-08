@@ -7,3 +7,9 @@
     @apply bg-secondary text-white;
   }
 }
+
+@layer components {
+  .button {
+    @apply bg-primary px-5 py-1 rounded-full transition-transform active:scale-95;
+  }
+}
