@@ -1,3 +1,1 @@
-<template>
-  <Posts />
-</template>
+<template></template>
