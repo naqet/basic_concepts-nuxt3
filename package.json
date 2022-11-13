@@ -5,7 +5,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.14-27796957.b60f136",
@@ -14,5 +16,8 @@
     "nuxt-icon": "^0.1.7",
     "prisma": "^4.6.0",
     "vitest": "^0.25.1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
   }
 }
