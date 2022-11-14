@@ -1,5 +1,5 @@
 <template>
-  <form method="post" action="/api/auth/login" class="grid gap-2 w-10">
+  <form @submit.prevent="handleSubmit" class="grid gap-2 w-10">
     <input
       v-model="username"
       minlength="3"
@@ -20,4 +20,8 @@
 <script setup>
 const username = ref("");
 const password = ref("");
+
+const handleSubmit = async () => {
+  // TODO: handle proper submit
+};
 </script>
